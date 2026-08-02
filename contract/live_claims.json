@@ -1,0 +1,26 @@
+[
+  {
+    "text": "Standard GNNs are not continuous across graph resolutions: GCN's MAE increases from 63.6\u00b11.3 kcal/mol in same-resolution QM7 regression to 138.1\u00b12.4 kcal/mol under cross-resolution evaluation (Table 1).",
+    "status": "unverified"
+  },
+  {
+    "text": "Latent embedding differences ||F-F\u0304|| between resolutions diverge for standard architectures, with GIN showing the worst divergence at 881.2\u00b1268.7 (high-to-low resolution) and 2875.8\u00b11527.7 (low-to-high resolution) (Table 2).",
+    "status": "unverified"
+  },
+  {
+    "text": "The discontinuity arises because renormalized adjacency-matrix propagation creates disconnected effective limit graphs rather than preserving coarse-grained structure (Section 5, Figure 4a-4b).",
+    "status": "unverified"
+  },
+  {
+    "text": "Theorem 7.1 proves that networks using Laplace-transform propagation achieve provable scale-continuity, bounding the embedding difference by a constant times the heat-kernel convergence term (Theorem 7.1, Eq. 5).",
+    "status": "unverified"
+  },
+  {
+    "text": "The proposed Laplace-transform propagation reduces embedding differences across resolutions to 0.2-0.3, versus 18.0-2875.8 for standard GNN propagation schemes (Table 3).",
+    "status": "unverified"
+  },
+  {
+    "text": "Prediction accuracy of the modified architecture remains stable across resolutions, e.g., MPNNexp attains 17.4\u00b13.4 MAE at same resolution versus 17.9\u00b15.2 at cross-resolution (Table 4).",
+    "status": "unverified"
+  }
+]

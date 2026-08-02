@@ -1,0 +1,18 @@
+{
+  "retrieved_at_utc": "2026-08-02T00:30:41Z",
+  "snapshot": "outputs/live/20260802T003041Z",
+  "openreview_id": "powiRLgonD",
+  "submission_number": 2829,
+  "title": "Graph Neural Networks Are Not Continuous Across Graph Resolutions",
+  "source_arxiv": "2605.31315",
+  "source_openreview": "https://openreview.net/forum?id=powiRLgonD",
+  "claim_precedence": "claims_anchored.json replaces claims.json",
+  "claim_count": 6,
+  "max_points": 12,
+  "input_sha256": {
+    "live_claims.json": "5707769791e9f9d1912ac69a2f60e0c9b78de2939912bf58bc9177cb67311526",
+    "claims_anchored.json": "7c0373fbbfb98b5acdc2c0ac122d9d81431bd6b42dda76fa36a91b49ec4b7825",
+    "challenge_readme.md": "027f66e6da758c4a0d75fff6c9298e5322dde64d21a97d33e4367e42c3a421c5",
+    "claims.json": "6f0984c875e7bc9507a9d3cf738621d22db16bc4c244ed7ceab86d60ecd14e01"
+  }
+}
