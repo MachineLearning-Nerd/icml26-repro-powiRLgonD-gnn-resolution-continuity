@@ -1,0 +1,15 @@
+{
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "fine_nodes": 16,
+  "coarse_nodes": 8,
+  "train_n": 300,
+  "test_n": 200,
+  "method": "one fixed renormalized-adjacency GCN layer plus learned fine-resolution linear readout",
+  "control": "node-position permuted coarse input"
+}

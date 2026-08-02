@@ -1,14 +1,15 @@
 {
   "schema_version": 1,
   "openreview_id": "powiRLgonD",
-  "phase": "claim_1_attempt_1_source_cpu_audit_complete",
-  "next_action": "launch_claim_1_direct_local_resolution_continuity_reproduction",
+  "phase": "claim_1_attempt_1_direct_resolution_fixture_complete",
+  "next_action": "independent_review_claim_1_toy_then_advance_claim_2",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
     "live_contract_saved",
     "source_archive_and_pdf_pinned",
-    "claim_1_attempt_1_source_cpu_audit"
+    "claim_1_attempt_1_source_cpu_audit",
+    "claim_1_attempt_1_local_gcn_resolution_fixture"
   ],
   "failed_attempts": [],
   "claim_attempt_counts": {
@@ -19,9 +20,15 @@
     "5": 0,
     "6": 0
   },
-  "last_checkpoint": "2026-08-02T00:30:41Z",
-  "last_known_git_commit": "f0d124384ec5103d54ce2d4519912ab2ba392567",
+  "last_checkpoint": "2026-08-02T02:30:41Z",
+  "last_known_git_commit": "PENDING_COMMIT",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no Hugging Face cpu-upgrade, Jobs, paid, or remote compute",
-  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-powiRLgonD-gnn-resolution-continuity"
+  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-powiRLgonD-gnn-resolution-continuity",
+  "claim_1_outcome": {
+    "verdict": "toy",
+    "scope": "clean-room local CPU synthetic ring graph 16-to-8 resolution GCN fixture; cross-resolution MAE exceeds fine MAE in five seeds; not QM7/Table 1",
+    "evidence": "outputs/claim1_resolution_gcn_toy/summary.json",
+    "negative_control": "permuted coarse node ordering"
+  }
 }
