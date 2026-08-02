@@ -4,11 +4,24 @@
   "phase": "claim_1_attempt_1_source_cpu_audit_complete",
   "next_action": "launch_claim_1_direct_local_resolution_continuity_reproduction",
   "active_run_ids": [],
-  "completed_milestones": ["live_duplicate_gate", "live_contract_saved", "source_archive_and_pdf_pinned", "claim_1_attempt_1_source_cpu_audit"],
+  "completed_milestones": [
+    "live_duplicate_gate",
+    "live_contract_saved",
+    "source_archive_and_pdf_pinned",
+    "claim_1_attempt_1_source_cpu_audit"
+  ],
   "failed_attempts": [],
-  "claim_attempt_counts": {"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0},
+  "claim_attempt_counts": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
   "last_checkpoint": "2026-08-02T00:30:41Z",
-  "last_known_git_commit": null,
+  "last_known_git_commit": "f0d124384ec5103d54ce2d4519912ab2ba392567",
   "publication_allowed": false,
-  "compute_policy": "local CPU/local GPU only; no Hugging Face cpu-upgrade, Jobs, paid, or remote compute"
+  "compute_policy": "local CPU/local GPU only; no Hugging Face cpu-upgrade, Jobs, paid, or remote compute",
+  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-powiRLgonD-gnn-resolution-continuity"
 }
